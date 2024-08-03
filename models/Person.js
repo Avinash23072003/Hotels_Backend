@@ -1,4 +1,6 @@
 const mongoose=require('mongoose');
+
+//Person Scehma for creating table
 const persondata=new mongoose.Schema({
     name:{
         type:String,
